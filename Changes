@@ -1,0 +1,8 @@
+Revision history for Perl extension Sledge::Plugin::Log
+
+0.02  Thu Jan 10 14:53:59 JST 2002
+	- Removed hook: configure() delayed for 1st load
+	  Different instance on each request (like Apache::Singleton)
+
+0.01  Tue Jan  8 18:43:11 2002
+	- original version
