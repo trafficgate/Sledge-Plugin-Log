@@ -4,5 +4,6 @@ WriteMakefile(
     'VERSION_FROM' => 'lib/Sledge/Plugin/Log.pm', # finds $VERSION
     'PREREQ_PM' => {
 	Test::More => 0.32,
+	Log::Dispatch::Config => 1.00,
     },
 );
